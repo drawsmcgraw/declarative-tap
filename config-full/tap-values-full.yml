@@ -106,6 +106,12 @@ tap_gui:
 metadata_store:
   ns_for_export_app_cert: "*"
   app_service_type: LoadBalancer
+
+
+accelerator:
+  ingress:
+    include: true
+  domain: #@ data.values.tap.domains.main
  
 #!grype:
 #!  namespace: #@ data.values.tap.devNamespaces[0]
