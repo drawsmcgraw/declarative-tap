@@ -32,7 +32,7 @@ to every cluster. These tools are part of the TAP prerequisites.
 
 ## How do I use it?
 ### Setup
-1. Make sure [Cluster Essentials for VMware Tanzu is deployed to your cluster](https://docs.vmware.com/en/Tanzu-Application-Platform/1.0/tap/GUID-install-general.html#install-cluster-essentials-for-vmware-tanzu-2).
+1. Make sure [Cluster Essentials for VMware Tanzu](https://network.pivotal.io/products/tanzu-cluster-essentials) is deployed to your cluster. Use the README for installation instructions.
 
 1. Create new file `tap-install-config.yml` in `gitops`, reusing content from [`tap-install-config.yml.tpl`](gitops/tap-install-config.yml.tpl).
 Edit this file accordingly:
